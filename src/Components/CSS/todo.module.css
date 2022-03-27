@@ -1,0 +1,23 @@
+/* .todo{
+  border: 1px solid red;
+} */
+.todo>div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid red;
+  margin: .1rem;
+  
+}
+
+.task{
+  width: 60%;
+}
+.todo>div button{
+  background-color: tomato;
+  width: 7rem;
+  height: 2rem;
+  border: none;
+  color: white;
+  margin: .2rem;
+}
